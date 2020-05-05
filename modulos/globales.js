@@ -1,0 +1,24 @@
+// los módulos globales de node están disponibles en todo el sistema y no es
+// necesario hacer su import
+// console.log(global)
+
+// Ubicación de ficheros
+console.log(__dirname);
+console.log(__filename);
+
+// Timers
+console.log(setInterval);
+console.log(clearInterval);
+console.log(setTimeout);
+console.log(clearTimeout);
+console.log(setImmediate);
+
+// Modules
+console.log(exports);
+console.log(module);
+console.log(require);
+
+// Seteando variables globales
+// global.test = 'Ejemplo';
+// console.log(test);
+// console.log(global.test);
