@@ -1,27 +1,29 @@
 {
-  "name": "node-fundamentos",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pitagoras27/library-node.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pitagoras27/library-node/issues"
-  },
-  "homepage": "https://github.com/Pitagoras27/library-node#readme",
-  "dependencies": {
-    "bcrypt": "^4.0.1",
-    "moment": "^2.25.3",
-    "node-gyp": "^6.1.0",
-    "puppeteer": "^3.0.3",
-    "sharp": "^0.25.2"
-  }
+    "name": "node-fundamentos",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ./herramientas/electron",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pitagoras27/library-node.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Pitagoras27/library-node/issues"
+    },
+    "homepage": "https://github.com/Pitagoras27/library-node#readme",
+    "dependencies": {
+        "bcrypt": "^4.0.1",
+        "electron": "^8.2.5",
+        "moment": "^2.25.3",
+        "node-gyp": "^6.1.0",
+        "puppeteer": "^3.0.3",
+        "sharp": "^0.25.2"
+    }
 }
