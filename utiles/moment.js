@@ -1,9 +1,7 @@
-const moment = require('moment');
+const { format  } = require('date-fns');
 
-// Utilidad para el manejo de fechas
+// Utilidad para el manejo de fechas con librería format
 
-let ahora = moment();
+let dateFormat = format(new Date(2022, 09, 06), 'yyyy-MM-dd')
 
-console.log(ahora.toString());
-console.log(ahora.format('YYYY/MMM/DD - HH:mm'));
-console.log(ahora.format('YYYY/MM/DD - HH:mm')); 
+console.log(dateFormat);
